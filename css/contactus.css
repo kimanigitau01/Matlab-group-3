@@ -1,0 +1,78 @@
+body{
+    background-color: #a28bd9;
+    font-family: "Droid Sans", sans-serif;
+}
+#main{
+    background-color: #fff7f7;
+    padding: 60px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 50%;
+}
+#contact{
+    text-align: center;
+}
+h1{
+    color: #9318ed;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#contact p{
+    font-size: 19px;
+    text-wrap: nowrap;
+}
+#email-link{
+    color: #8256ed;
+}
+#contact img{
+    width: 95%;
+    height: 320px;
+    margin: 0;
+}
+#form{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 50%;
+    height: 100%;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding-inline: 10px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #8256ed;
+    background-color: #fff7f7;
+}
+input[type=text], input[type=email]{
+    height: 40px;
+}
+
+label{
+    font-size: 19px;
+    text-wrap: nowrap;
+}
+#caption{
+    color: #8256ed;
+    font-size: 14px;
+}
+button{
+    background-color: #8256ed;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    border-color: #8256ed;
+}
